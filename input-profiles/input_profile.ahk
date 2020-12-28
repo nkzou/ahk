@@ -18,7 +18,7 @@ F20::v
 F21::c
 F22::return
 F23::z
-#IfWinActive, ahk_exe Valorant.exe ; CSGO too
+#IfWinActive, ahk_exe VALORANT-Win64-Shipping.exe ; CSGO too
 F20::return
 F21::^
 F22::return
