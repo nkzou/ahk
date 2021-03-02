@@ -23,6 +23,11 @@ F20::Return
 F21::LCtrl
 F22::Return
 F23::Return
+#IfWinActive ahk_exe Overwatch.exe ; CSGO too
+F20::v
+F21::LCtrl
+F22::Return
+F23::Return
 #IfWinActive ahk_exe ffxiv_dx11.exe
 F20::F1
 F21::F2
