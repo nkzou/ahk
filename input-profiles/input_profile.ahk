@@ -33,6 +33,11 @@ F20::F1
 F21::F2
 F22::F3
 F23::F4
+#IfWinActive ahk_exe LOSTARK.exe
+F20::F1
+F21::F2
+F22::F3
+F23::F4
 #IfWinActive ahk_exe TERA.exe
 F20::XButton2
 F21::XButton1
