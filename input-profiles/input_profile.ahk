@@ -29,10 +29,10 @@ F21::LCtrl
 F22::Return
 F23::Return
 #IfWinActive ahk_exe ffxiv_dx11.exe
-F20::F1
-F21::F2
-F22::F3
-F23::F4
+F20::6
+F21::7
+F22::8
+F23::9
 #IfWinActive ahk_exe LOSTARK.exe
 F20::F1
 F21::F2
