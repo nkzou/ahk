@@ -1,6 +1,6 @@
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+#NoEnv                        ; Recommended for performance and compatibility with future AutoHotkey releases.
+SendMode Input                ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%   ; Ensures a consistent starting directory.
 SetTitleMatchMode, 3
 ; Razer Viper Ultimate Keybinds
 ; F20 - Left Front
@@ -9,6 +9,11 @@ SetTitleMatchMode, 3
 ; F23 - Right Back
 ; F24 - Underside
 #IfWinActive ahk_exe GenshinImpact.exe
+F20::1
+F21::2
+F22::3
+F23::4
+#IfWinActive ahk_exe StarRail.exe
 F20::1
 F21::2
 F22::3
@@ -43,6 +48,16 @@ F20::XButton2
 F21::XButton1
 F22::^1
 F23::^2
+#IfWinActive ahk_exe armoredcore6.exe
+F20::1
+F21::2
+F22::3
+F23::4
+#IfWinActive ahk_exe Cyberpunk2077.exe
+F20::XButton2
+F21::XButton1
+F22::F3
+F23::F4
 #IfWinActive ; default profile - work
 F20::^v
 F21::^c
